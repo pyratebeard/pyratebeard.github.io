@@ -15,7 +15,7 @@ body {
     background-color: #010101;
     color: #d9d9d9;
     background-color: #0b0b0b;
-    /*background-image: url("/static/img/bg/dark_bg.jpg");*/
+    background-image: url("/images/dark_bg.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
