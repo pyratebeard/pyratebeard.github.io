@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+  {% include yandex-metrica.html %}
+ <script type="text/javascript">
+  WebFontConfig = {
+    google: {
+      families: ['Ubuntu::latin']
+    }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
+</script>
+
+<div class="col-md-13">
+  <div class="col-md-13">
+    <div class="top">
+    </div>
+  </div>
+  <div class="col-md-2">
+    <nav class="navbar" role="navigation">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+          MENU
+          <!-- <hr> -->
+          <!-- <div class="container-fluid"> -->
+            <!-- <div class="navbar-header"> -->
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            <!-- </div> -->
+          <!-- </div> -->
+      </div>
+      <div class="panel-body">
+        <div class="collapse navbar-collapse">
+        {% include menu.html %}
+        </div>
+      </div>
+    </div>
+    </nav>
+  </div>
+  <div class="col-md-7">
+    <div class="panel panel-default">
+      <div class="panel-heading content">
+        CONTENT
+        <!-- <hr> -->
+      </div>
+      <div class="panel-body" style="min-height: 500px;">
+        <div class="content">
+        {{ content }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        SIDEBAR
+        <!-- <hr> -->
+      </div>
+      <div class="panel-body">
+      {% include sidebar.html %}
+      </div>
+    </div>
+  </div>
+  <div class="col-md-7 col-md-offset-2">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        FOOTER
+        <!-- <hr> -->
+      </div>
+      <div class="panel-body">
+      {% include footer.html %}
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
