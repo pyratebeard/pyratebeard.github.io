@@ -70,7 +70,13 @@
         <!-- <hr> -->
       </div>
       <div class="panel-body">
-      {% include sidebar.html %}
+      {% if page.title == 'log' %}
+        {% include log_sidebar.html %}
+      {% elsif page.layout == 'post' %}
+        {% include log_sidebar.html %}
+      {% else %}
+        {{ page.sections['sidebar'] }}
+      {% endif %}
       </div>
     </div>
   </div>
