@@ -72,6 +72,8 @@
       <div class="panel-body">
       {% if page.title == 'log' %}
         {% include log_sidebar.html %}
+      {% elsif page.title == 'archive' %}
+        {% include log_sidebar.html %}
       {% elsif page.layout == 'post' %}
         {% include log_sidebar.html %}
       {% else %}
