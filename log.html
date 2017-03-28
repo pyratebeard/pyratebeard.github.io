@@ -2,7 +2,19 @@
 layout: default
 sections:
   sidebar: |
-    <div class="sidebar ">
+
+    <p>RECENT POSTS</p>
+    {% if site.posts %}
+      <ul class="sidebar">
+          {% for post in site.posts limit:5 %}
+          <li><a href="{{ site.baseurl }}{ {post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+      </ul>
+      {% else %}
+      <p>Nothing has been posted yet</p>
+    {% endif %}
+    
+<!--     <div class="sidebar ">
       <h2>Recent Posts</h2>
       <ul>
         {% for post in site.posts limit:5 %}
@@ -10,7 +22,7 @@ sections:
         {% endfor %}
       </ul>
     </div>
-
+ -->
     <div class="sidebar">
       <h2>Tags</h2>
       <ul class="sideBarTags">
