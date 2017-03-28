@@ -2,7 +2,7 @@
     {% if site.posts %}
       <ul class="sidebar">
           {% for post in site.posts limit:5 %}
-          <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+          <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
       </ul>
       {% else %}
@@ -14,7 +14,7 @@
       <ul class="sidebar">
         {% assign categories = (site.categories) %}
         {% for category in categories %}
-        <li><a href="{{ site.baseurl }}{{ category[0] }}">{{ category[0] }}</a></li>
+        <li>{{ category[0] }}</li>
         {% endfor %}
       </ul>
       {% else %}
