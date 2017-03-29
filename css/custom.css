@@ -13,6 +13,7 @@ body {
     background-image: url("../img/dark_bg.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 a {
     color: #d9d9d9;
