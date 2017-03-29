@@ -2,23 +2,6 @@
 <html lang="en">
 {% include head.html %}
 <body>
-<!--  <script type="text/javascript">
-  WebFontConfig = {
-    google: {
-      families: ['Ubuntu::latin']
-    }
-  };
-  (function() {
-    var wf = document.createElement('script');
-    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-    wf.type = 'text/javascript';
-    wf.async = 'true';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(wf, s);
-  })();
-</script> -->
-
 <div class="col-md-13">
   <div class="col-md-13">
     <div class="top">
@@ -29,17 +12,12 @@
     <div class="panel panel-default">
       <div class="panel-heading">
           MENU
-          <!-- <hr> -->
-          <!-- <div class="container-fluid"> -->
-            <!-- <div class="navbar-header"> -->
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            <!-- </div> -->
-          <!-- </div> -->
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
       </div>
       <div class="panel-body">
         <div class="collapse navbar-collapse">
@@ -53,7 +31,6 @@
     <div class="panel panel-default">
       <div class="panel-heading content">
         CONTENT
-        <!-- <hr> -->
       </div>
       <div class="panel-body" style="min-height: 500px;">
         <div class="content">
@@ -66,7 +43,6 @@
     <div class="panel panel-default">
       <div class="panel-heading">
         SIDEBAR
-        <!-- <hr> -->
       </div>
       <div class="panel-body">
       {% if page.title == 'log' %}
@@ -85,7 +61,6 @@
     <div class="panel panel-default">
       <div class="panel-heading">
         FOOTER
-        <!-- <hr> -->
       </div>
       <div class="panel-body">
       {% include footer.html %}
