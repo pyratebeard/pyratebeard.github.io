@@ -18,4 +18,4 @@ I hope you enjoy some, if not all of the writings I will post. Feel free to send
 
 Until next time...
 
-![alt text]({{ site.baseurl}}/images/text_logo.png){:style="max-width: 270px;"}
+![alt text]({{ site.baseurl}}/img/text_logo.png){:style="max-width: 270px;"}
