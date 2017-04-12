@@ -6,7 +6,7 @@ tags: tech degoogle privacy security
 description: First steps away from a life of Google
 ---
 
-Having always been concious of privacy I was surprised to realise how deep down the Google hole I had fallen. Ease of use is probably why it happened. It dawned on me that almost every app I was using on a daily basis had Google before it, all logged in from one account, and all syncing my data so that everything was seamless. I didn't like it. Having everything synced did make my life easier switching from laptop, to PC, to my phone, and back again. There was this little voice in the back of my head complaining about how much information one company knew about me.
+Having always been concious of privacy I was surprised to realise how deep down the Google hole I had fallen. Ease of use is probably why it happened. It dawned on me that almost every app I was using on a daily basis had Google before it, all logged in from one account, and all syncing my data so that everything was seamless. I didn't like it. Having everything synced did make my life easier switching from laptop, to PC, to my phone, and back again; however, there was this little voice in the back of my head complaining about how much information one company knew about me.
 
 At the time I had 35GB of Google Drive storage, due to an offer when purchasing a SIM card. This offer was due to run out and drop me back down to the default amount of 15GB. As a fairly heavy user I needed the extra space, so I figured it was a good time to start looking around at new cloud backup providers. While I was looking for alternative storage I decided to see how easy it would be to replace all the Google applications currently used.
 
@@ -36,7 +36,6 @@ In no particular order here is the list of Google applications I used on a regul
 
 The following are the replacements I have settled on (in the same order as the list above):
 
-Replacements
 * [DuckDuckGo](#duckduckgo)
 * [Authy](#authy)
 * [Protonmail](#protonmail)
@@ -52,6 +51,9 @@ Replacements
 * [Whatsapp/Telegram](#whatsapp)
 * [CyanogenMod](#cyanogenmod)
 * [Youtube](#youtube)
+
+
+- -
 
 
 ##### # DuckDuckGo
@@ -154,7 +156,8 @@ Everybody knows youtube, it's the site with the [piano playing cat](https://yout
 As it stands I still use Youtube although I don't log in, which means I find it harder to track my favourite channels. Not the end of the world but it is a bit of a pain in the ass. [Vimeo](https://vimeo.com/) has been getting better in terms of content but it's not on par yet.
 
 
------
+- -
+
 
 As you can see an alternative was found for most of the Google equivalents. Switching away from Google didn't cause any majors in my day to day life, the hardest part was changing my email address over on all my logins, and getting people to update their contact details.
 
