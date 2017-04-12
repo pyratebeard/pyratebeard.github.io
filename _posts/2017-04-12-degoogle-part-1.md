@@ -55,19 +55,19 @@ The following are the replacements I have settled on (in the same order as the l
 
 <br />
 ##### DuckDuckGo
-[Website](https://ddg.gg)
+[Website](https://ddg.gg){:target="_blank"}
 
-This search engine had replaced Google for me a long time before attempting the switch. I can't remember when I first heard of DuckDuckGo, but after I had got use to their [!bangs](https://duckduckgo.com/bang) I have not looked back. If I do ever want to use Google Search I will go through [StartPage](https://www.startpage.com/).
+This search engine had replaced Google for me a long time before attempting the switch. I can't remember when I first heard of DuckDuckGo, but after I had got use to their [!bangs](https://duckduckgo.com/bang){:target="_blank"} I have not looked back. If I do ever want to use Google Search I will go through [StartPage](https://www.startpage.com/){:target="_blank"}.
 
 <br />
 ##### Authy
-[Website](https://www.authy.com/)
+[Website](https://www.authy.com/){:target="_blank"}
 
 Two-factor authentication is very important (security is NOT a dirty word!) and so I replaced the Google Authenticator app with Authy. I didn't have an issue moving all the accounts across, and you can enable multi-devices if you require the same authentication across more than one device. I haven't used this feature yet but it is handy to have.
 
 <br />
 ##### Protonmail
-[Website](https://protonmail.com)
+[Website](https://protonmail.com){:target="_blank"}
 
 My replacement to Gmail split in two. I have my own email server (upcoming log!) and use my own domain, pyratebeard.net. I had a second Gmail account for more professional places such as LinkedIn so I opted for Protonmail as the replacement. This was primarily because it is free, and encrypted. The free tier offers 500MB of storage and 150 messages a day. This suited my needs as I wouldn't be using it often.
 
@@ -80,15 +80,15 @@ I am yet to find an alternative to this. Currently I am performing my own sync b
 
 <br />
 ##### Mega
-[Website](https://mega.nz)
+[Website](https://mega.nz){:target="_blank"}
 
-You may have heard of Mega already, developed by the (in)famous [Kim Dotcom](http://www.kim.com/) after his original venture, MegaUpload, was shutdown. Mega however strives to do things by the book while focusing on security. Their web based app is clean and easy to use. There is a desktop sync client, as well as mobile device apps. There is also a Firefox Extension to "reduce loading times, improve download performance and strengthen security".
+You may have heard of Mega already, developed by the (in)famous [Kim Dotcom](http://www.kim.com/){:target="_blank"} after his original venture, MegaUpload, was shutdown. Mega however strives to do things by the book while focusing on security. Their web based app is clean and easy to use. There is a desktop sync client, as well as mobile device apps. There is also a Firefox Extension to "reduce loading times, improve download performance and strengthen security".
 
 Apart from their security one of the other big selling points was the storage capacity. A standard free tier account recieves 50GB of storage! That is well over what I needed to replace Drive.
 
 <br />
 ##### Firefox
-[Website](https://www.mozilla.org/en-US/firefox/new/)
+[Website](https://www.mozilla.org/en-US/firefox/new/){:target="_blank"}
 
 Switching to Firefox wasn't such a big deal for me. I had been an avid Firefox user prior to Chrome. At the time I wasn't keen on the fact that when you opened Firefox it loaded all tabs straight away, in Chrome it only loaded the focused tab. For me this was almost a deal breaker as I tend to leave a lot of tabs open. This feature seems to have been added at time of writing... so happy me! There is also the ability to create an account so you can sync your tabs and settings across multiple devices. This is useful as I use Firefox on a number of devices.
 
@@ -99,15 +99,15 @@ This is one application I haven't decided on a replacement for yet. Google Calen
 
 <br />
 ##### Waze
-[Website](https://www.waze.com)
+[Website](https://www.waze.com){:target="_blank"}
 
 Google Maps wasn't used too much as my truck had built in SatNav. It was handy on the odd occassion when the built in maps weren't up to date. As a replacement I switched to Waze. The interface is a bit more 'childish' but it links to other Wazers nearby for up to date information. Their website also has a Live Map.
 
-One thing Waze doesn't do is pedestrian directions. Prior to moving to Ireland I was living in London so [Citymapper](https://citymapper.com) was a life saver. An incredible app with up to date transport information and even a list of routes to take. Very handy when one of the tube lines was busy. Unfortunately Dublin isn't on Citymapper yet, but I'm making do.
+One thing Waze doesn't do is pedestrian directions. Prior to moving to Ireland I was living in London so [Citymapper](https://citymapper.com){:target="_blank"} was a life saver. An incredible app with up to date transport information and even a list of routes to take. Very handy when one of the tube lines was busy. Unfortunately Dublin isn't on Citymapper yet, but I'm making do.
 
 <br />
 ##### Evernote
-[Website](https://evernote.com)
+[Website](https://evernote.com){:target="_blank"}
 
 Keep and Evernote aren't directly comparable. I was already using Evernote so it made sense to keep my notes on there as well. A pretty decent app which can be used in your browser or through a mobile app.
 
@@ -123,7 +123,7 @@ A replacement wasn't needed for this as it was only used as the backdrop on the 
 
 <br />
 ##### Translator
-[Website](http://www.worldlingo.com/)
+[Website](http://www.worldlingo.com/){:target="_blank"}
 
 The translator wasn't used too often, occassionaly in Belgium when ordering beer. World Lingo is suitable enough for my uses, but it's only available through a browser. I can't say I spent too much time looking for a replacement app, I will probably start looking next time I'm in Belgium and need it urgently.
 
@@ -131,15 +131,15 @@ One of the features I liked with Translator was the ability to point the camera 
 
 <br />
 ##### Whatsapp
-[Website](https://www.whatsapp.com/)
+[Website](https://www.whatsapp.com/){:target="_blank"}
 
 Whatsapp isn't a replacement as such, it was already being used to keeping in touch with all my friends. Hangouts was only used between myself and a colleague, but they have moved to Whatsapp now so I don't need to worry about it.
 
-Another messenging application I use quite a bit is [Telegram](https://telegram.org/). Unfortunately a messenging app is only as useful as the number of people on it. As most people use Whatsapp I have to list that as my primary.
+Another messenging application I use quite a bit is [Telegram](https://telegram.org/){:target="_blank"}. Unfortunately a messenging app is only as useful as the number of people on it. As most people use Whatsapp I have to list that as my primary.
 
 <br />
 ##### CyanogenMod
-[Website](https://web.archive.org/web/20161224194030/https://www.cyanogenmod.org/) - archive link as website is now defunct.
+[Website](https://web.archive.org/web/20161224194030/https://www.cyanogenmod.org/){:target="_blank"} - archive link as website is now defunct.
 
 When I started this expriment I was using and Android mobile. During the first phase I continued to use Android and the Google Play Store, which meant I was logged in with my Gmail account. The plan was to move away from stock Android on to CyanogenMod and use alternatives to Play Store.
 
@@ -147,11 +147,11 @@ There will be more on this in Part Two so stay tuned!
 
 <br />
 ##### Youtube
-[Website](https://youtube.com)
+[Website](https://youtube.com){:target="_blank"}
 
-Everybody knows youtube, it's the site with the [piano playing cat](https://youtu.be/kNH_EjHvm3I)! This hasn't been left to last on purpose, but it was the most annoying. There isn't really any alternative to Youtube, and the only reason I included it was because since Google took it over you can not create a non-Google account! I was going to create an account with my new email address, but logging into Youtube is logging into Google. I really didn't like that.
+Everybody knows youtube, it's the site with the [piano playing cat](https://youtu.be/kNH_EjHvm3I){:target="_blank"}! This hasn't been left to last on purpose, but it was the most annoying. There isn't really any alternative to Youtube, and the only reason I included it was because since Google took it over you can not create a non-Google account! I was going to create an account with my new email address, but logging into Youtube is logging into Google. I really didn't like that.
 
-As it stands I still use Youtube although I don't log in, which means I find it harder to track my favourite channels. Not the end of the world but it is a bit of a pain in the ass. [Vimeo](https://vimeo.com/) has been getting better in terms of content but it's not on par yet.
+As it stands I still use Youtube although I don't log in, which means I find it harder to track my favourite channels. Not the end of the world but it is a bit of a pain in the ass. [Vimeo](https://vimeo.com/){:target="_blank"} has been getting better in terms of content but it's not on par yet.
 
 
 <br />
@@ -163,7 +163,7 @@ Certain things that I miss from Google are being able to save email attachments 
 
 The most interesting part for me was finding all the alternatives. There are so many great developers and companies doing incredible work which is being overshadowed by the Google giant. Every day more and more people are being interested in their online security, and so these alternative applications are slowly being more widely used.
 
-If anybody would like to discuss my No Google life experiment, or anything about online privacy and security then get in touch on [twitter](https://twitter.com/pyratebeard) or email me: root@pyratebeard.net. Be sure to encrypt and sign your email for bonus geek points :) 
+If anybody would like to discuss my No Google life experiment, or anything about online privacy and security then get in touch on [twitter](https://twitter.com/pyratebeard){:target="_blank"} or email me: root@pyratebeard.net. Be sure to encrypt and sign your email for bonus geek points :) 
 
 Until next time...
 
