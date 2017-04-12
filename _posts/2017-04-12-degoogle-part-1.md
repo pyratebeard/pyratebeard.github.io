@@ -53,34 +53,32 @@ The following are the replacements I have settled on (in the same order as the l
 * [Youtube](#youtube)
 
 
-- -
-
-
+<br />
 ##### # DuckDuckGo
 [Website](https://ddg.gg)
 
 This search engine had replaced Google for me a long time before attempting the switch. I can't remember when I first heard of DuckDuckGo, but after I had got use to their [!bangs](https://duckduckgo.com/bang) I have not looked back. If I do ever want to use Google Search I will go through [StartPage](https://www.startpage.com/).
 
-
+<br />
 ##### # Authy
 [Website](https://www.authy.com/)
 
 Two-factor authentication is very important (security is NOT a dirty word!) and so I replaced the Google Authenticator app with Authy. I didn't have an issue moving all the accounts across, and you can enable multi-devices if you require the same authentication across more than one device. I haven't used this feature yet but it is handy to have.
 
-
+<br />
 ##### # Protonmail
 [Website](https://protonmail.com)
 
 My replacement to Gmail split in two. I have my own email server (upcoming log!) and use my own domain, pyratebeard.net. I had a second Gmail account for more professional places such as LinkedIn so I opted for Protonmail as the replacement. This was primarily because it is free, and encrypted. The free tier offers 500MB of storage and 150 messages a day. This suited my needs as I wouldn't be using it often.
 
-
+<br />
 ##### # Contacts
 
 One of the most useful features with Gmail is having all your contacts stored. When I moved to a new phone I only had to sign in to Google and instantly all my contacts are available. I never saved to the phone or the SIM, and that meant I could access them online if my phone was ever out of reach.
 
 I am yet to find an alternative to this. Currently I am performing my own sync between my phone and Mega, but it is not the same.
 
-
+<br />
 ##### # Mega
 [Website](https://mega.nz)
 
@@ -88,18 +86,18 @@ You may have heard of Mega already, developed by the (in)famous [Kim Dotcom](htt
 
 Apart from their security one of the other big selling points was the storage capacity. A standard free tier account recieves 50GB of storage! That is well over what I needed to replace Drive.
 
-
+<br />
 ##### # Firefox
 [Website](https://www.mozilla.org/en-US/firefox/new/)
 
 Switching to Firefox wasn't such a big deal for me. I had been an avid Firefox user prior to Chrome. At the time I wasn't keen on the fact that when you opened Firefox it loaded all tabs straight away, in Chrome it only loaded the focused tab. For me this was almost a deal breaker as I tend to leave a lot of tabs open. This feature seems to have been added at time of writing... so happy me! There is also the ability to create an account so you can sync your tabs and settings across multiple devices. This is useful as I use Firefox on a number of devices.
 
-
+<br />
 ##### # Calendar
 
 This is one application I haven't decided on a replacement for yet. Google Calendar was very useful for my girlfriend and I as we would share our calendars and be able to see what both of us were up to. If anybody has recommendations then let me know!
 
-
+<br />
 ##### # Waze
 [Website](https://www.waze.com)
 
@@ -107,23 +105,23 @@ Google Maps wasn't used too much as my truck had built in SatNav. It was handy o
 
 One thing Waze doesn't do is pedestrian directions. Prior to moving to Ireland I was living in London so [Citymapper](https://citymapper.com) was a life saver. An incredible app with up to date transport information and even a list of routes to take. Very handy when one of the tube lines was busy. Unfortunately Dublin isn't on Citymapper yet, but I'm making do.
 
-
+<br />
 ##### # Evernote
 [Website](https://evernote.com)
 
 Keep and Evernote aren't directly comparable. I was already using Evernote so it made sense to keep my notes on there as well. A pretty decent app which can be used in your browser or through a mobile app.
 
-
+<br />
 ##### # Cast
 
 This is another one I haven't found a replacement for. My Chromecast was used quite a lot for streaming Youtube and from my media server. I haven't tried any alternatives but couldn't decide on anything based on reviews. In the end I gave my Chromecast to my girlfriend... so I still get to use it. Win.
 
-
+<br />
 ##### # Photos
 
 A replacement wasn't needed for this as it was only used as the backdrop on the Chromecast.
 
-
+<br />
 ##### # Translator
 [Website](http://www.worldlingo.com/)
 
@@ -131,7 +129,7 @@ The translator wasn't used too often, occassionaly in Belgium when ordering beer
 
 One of the features I liked with Translator was the ability to point the camera at written text and see it translated. If there is another app which can do this then I would love to check it out.
 
-
+<br />
 ##### # Whatsapp
 [Website](https://www.whatsapp.com/)
 
@@ -139,7 +137,7 @@ Whatsapp isn't a replacement as such, it was already being used to keeping in to
 
 Another messenging application I use quite a bit is [Telegram](https://telegram.org/). Unfortunately a messenging app is only as useful as the number of people on it. As most people use Whatsapp I have to list that as my primary.
 
-
+<br />
 ##### # CyanogenMod
 [Website](https://web.archive.org/web/20161224194030/https://www.cyanogenmod.org/) - archive link as website is now defunct.
 
@@ -147,7 +145,7 @@ When I started this expriment I was using and Android mobile. During the first p
 
 There will be more on this in Part Two so stay tuned!
 
-
+<br />
 ##### # Youtube
 [Website](https://youtube.com)
 
@@ -156,7 +154,7 @@ Everybody knows youtube, it's the site with the [piano playing cat](https://yout
 As it stands I still use Youtube although I don't log in, which means I find it harder to track my favourite channels. Not the end of the world but it is a bit of a pain in the ass. [Vimeo](https://vimeo.com/) has been getting better in terms of content but it's not on par yet.
 
 
-- -
+<br />
 
 
 As you can see an alternative was found for most of the Google equivalents. Switching away from Google didn't cause any majors in my day to day life, the hardest part was changing my email address over on all my logins, and getting people to update their contact details.
