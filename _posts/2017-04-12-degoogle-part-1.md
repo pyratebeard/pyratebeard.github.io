@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-10-05
-category: Notes
-tags: degoogle privacy security
+date: 2017-04-12
+category: Tech
+tags: tech degoogle privacy security
 description: First steps away from a life of Google
 ---
 
