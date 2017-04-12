@@ -54,32 +54,32 @@ The following are the replacements I have settled on (in the same order as the l
 
 
 <br />
-##### # DuckDuckGo
+##### DuckDuckGo
 [Website](https://ddg.gg)
 
 This search engine had replaced Google for me a long time before attempting the switch. I can't remember when I first heard of DuckDuckGo, but after I had got use to their [!bangs](https://duckduckgo.com/bang) I have not looked back. If I do ever want to use Google Search I will go through [StartPage](https://www.startpage.com/).
 
 <br />
-##### # Authy
+##### Authy
 [Website](https://www.authy.com/)
 
 Two-factor authentication is very important (security is NOT a dirty word!) and so I replaced the Google Authenticator app with Authy. I didn't have an issue moving all the accounts across, and you can enable multi-devices if you require the same authentication across more than one device. I haven't used this feature yet but it is handy to have.
 
 <br />
-##### # Protonmail
+##### Protonmail
 [Website](https://protonmail.com)
 
 My replacement to Gmail split in two. I have my own email server (upcoming log!) and use my own domain, pyratebeard.net. I had a second Gmail account for more professional places such as LinkedIn so I opted for Protonmail as the replacement. This was primarily because it is free, and encrypted. The free tier offers 500MB of storage and 150 messages a day. This suited my needs as I wouldn't be using it often.
 
 <br />
-##### # Contacts
+##### Contacts
 
 One of the most useful features with Gmail is having all your contacts stored. When I moved to a new phone I only had to sign in to Google and instantly all my contacts are available. I never saved to the phone or the SIM, and that meant I could access them online if my phone was ever out of reach.
 
 I am yet to find an alternative to this. Currently I am performing my own sync between my phone and Mega, but it is not the same.
 
 <br />
-##### # Mega
+##### Mega
 [Website](https://mega.nz)
 
 You may have heard of Mega already, developed by the (in)famous [Kim Dotcom](http://www.kim.com/) after his original venture, MegaUpload, was shutdown. Mega however strives to do things by the book while focusing on security. Their web based app is clean and easy to use. There is a desktop sync client, as well as mobile device apps. There is also a Firefox Extension to "reduce loading times, improve download performance and strengthen security".
@@ -87,18 +87,18 @@ You may have heard of Mega already, developed by the (in)famous [Kim Dotcom](htt
 Apart from their security one of the other big selling points was the storage capacity. A standard free tier account recieves 50GB of storage! That is well over what I needed to replace Drive.
 
 <br />
-##### # Firefox
+##### Firefox
 [Website](https://www.mozilla.org/en-US/firefox/new/)
 
 Switching to Firefox wasn't such a big deal for me. I had been an avid Firefox user prior to Chrome. At the time I wasn't keen on the fact that when you opened Firefox it loaded all tabs straight away, in Chrome it only loaded the focused tab. For me this was almost a deal breaker as I tend to leave a lot of tabs open. This feature seems to have been added at time of writing... so happy me! There is also the ability to create an account so you can sync your tabs and settings across multiple devices. This is useful as I use Firefox on a number of devices.
 
 <br />
-##### # Calendar
+##### Calendar
 
 This is one application I haven't decided on a replacement for yet. Google Calendar was very useful for my girlfriend and I as we would share our calendars and be able to see what both of us were up to. If anybody has recommendations then let me know!
 
 <br />
-##### # Waze
+##### Waze
 [Website](https://www.waze.com)
 
 Google Maps wasn't used too much as my truck had built in SatNav. It was handy on the odd occassion when the built in maps weren't up to date. As a replacement I switched to Waze. The interface is a bit more 'childish' but it links to other Wazers nearby for up to date information. Their website also has a Live Map.
@@ -106,23 +106,23 @@ Google Maps wasn't used too much as my truck had built in SatNav. It was handy o
 One thing Waze doesn't do is pedestrian directions. Prior to moving to Ireland I was living in London so [Citymapper](https://citymapper.com) was a life saver. An incredible app with up to date transport information and even a list of routes to take. Very handy when one of the tube lines was busy. Unfortunately Dublin isn't on Citymapper yet, but I'm making do.
 
 <br />
-##### # Evernote
+##### Evernote
 [Website](https://evernote.com)
 
 Keep and Evernote aren't directly comparable. I was already using Evernote so it made sense to keep my notes on there as well. A pretty decent app which can be used in your browser or through a mobile app.
 
 <br />
-##### # Cast
+##### Cast
 
 This is another one I haven't found a replacement for. My Chromecast was used quite a lot for streaming Youtube and from my media server. I haven't tried any alternatives but couldn't decide on anything based on reviews. In the end I gave my Chromecast to my girlfriend... so I still get to use it. Win.
 
 <br />
-##### # Photos
+##### Photos
 
 A replacement wasn't needed for this as it was only used as the backdrop on the Chromecast.
 
 <br />
-##### # Translator
+##### Translator
 [Website](http://www.worldlingo.com/)
 
 The translator wasn't used too often, occassionaly in Belgium when ordering beer. World Lingo is suitable enough for my uses, but it's only available through a browser. I can't say I spent too much time looking for a replacement app, I will probably start looking next time I'm in Belgium and need it urgently.
@@ -130,7 +130,7 @@ The translator wasn't used too often, occassionaly in Belgium when ordering beer
 One of the features I liked with Translator was the ability to point the camera at written text and see it translated. If there is another app which can do this then I would love to check it out.
 
 <br />
-##### # Whatsapp
+##### Whatsapp
 [Website](https://www.whatsapp.com/)
 
 Whatsapp isn't a replacement as such, it was already being used to keeping in touch with all my friends. Hangouts was only used between myself and a colleague, but they have moved to Whatsapp now so I don't need to worry about it.
@@ -138,7 +138,7 @@ Whatsapp isn't a replacement as such, it was already being used to keeping in to
 Another messenging application I use quite a bit is [Telegram](https://telegram.org/). Unfortunately a messenging app is only as useful as the number of people on it. As most people use Whatsapp I have to list that as my primary.
 
 <br />
-##### # CyanogenMod
+##### CyanogenMod
 [Website](https://web.archive.org/web/20161224194030/https://www.cyanogenmod.org/) - archive link as website is now defunct.
 
 When I started this expriment I was using and Android mobile. During the first phase I continued to use Android and the Google Play Store, which meant I was logged in with my Gmail account. The plan was to move away from stock Android on to CyanogenMod and use alternatives to Play Store.
@@ -146,7 +146,7 @@ When I started this expriment I was using and Android mobile. During the first p
 There will be more on this in Part Two so stay tuned!
 
 <br />
-##### # Youtube
+##### Youtube
 [Website](https://youtube.com)
 
 Everybody knows youtube, it's the site with the [piano playing cat](https://youtu.be/kNH_EjHvm3I)! This hasn't been left to last on purpose, but it was the most annoying. There isn't really any alternative to Youtube, and the only reason I included it was because since Google took it over you can not create a non-Google account! I was going to create an account with my new email address, but logging into Youtube is logging into Google. I really didn't like that.
