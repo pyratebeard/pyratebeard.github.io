@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/pyratebeard
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://pyratebeard.net
+  * I am pyratebeard (https://keybase.io/pyratebeard) on keybase.
+  * I have a public key ASASHN0pA8dPVVLYD5IyBvbdWiA1hzuoDQnvCe0vGc2sKwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010110fbea4f3582c0e85eedea50b4e5984995641333e0342da4356357f29347a9bd0a",
+            "host": "keybase.io",
+            "kid": "0120121cdd2903c74f5552d80f923206f6dd5a2035873ba80d09ef09ed2f19cdac2b0a",
+            "uid": "1dde6d63a35b98f7de0ce0b7de017619",
+            "username": "pyratebeard"
+        },
+        "service": {
+            "hostname": "pyratebeard.net",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.19"
+    },
+    "ctime": 1492116531,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1492116529,
+        "hash": "ae45ac5408de2eeafa70ebd29fa5fe4d8232acf507f5ce953387c5d9c886999e54df11e8e683bd4f9b5e9e8ee9749b39fa2d09d6c8cff87f451005c3ac0a4400",
+        "seqno": 1017846
+    },
+    "prev": "122b424b4e6f71b20b77095d6d76fa406cf6ea82920c77a426b973f7b6392eee",
+    "seqno": 16,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgEhzdKQPHT1VS2A+SMgb23VogNYc7qA0J7wntLxnNrCsKp3BheWxvYWTFAvt7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxMTBmYmVhNGYzNTgyYzBlODVlZWRlYTUwYjRlNTk4NDk5NTY0MTMzM2UwMzQyZGE0MzU2MzU3ZjI5MzQ3YTliZDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMTIxY2RkMjkwM2M3NGY1NTUyZDgwZjkyMzIwNmY2ZGQ1YTIwMzU4NzNiYTgwZDA5ZWYwOWVkMmYxOWNkYWMyYjBhIiwidWlkIjoiMWRkZTZkNjNhMzViOThmN2RlMGNlMGI3ZGUwMTc2MTkiLCJ1c2VybmFtZSI6InB5cmF0ZWJlYXJkIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJweXJhdGViZWFyZC5uZXQiLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE5In0sImN0aW1lIjoxNDkyMTE2NTMxLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0OTIxMTY1MjksImhhc2giOiJhZTQ1YWM1NDA4ZGUyZWVhZmE3MGViZDI5ZmE1ZmU0ZDgyMzJhY2Y1MDdmNWNlOTUzMzg3YzVkOWM4ODY5OTllNTRkZjExZThlNjgzYmQ0ZjliNWU5ZThlZTk3NDliMzlmYTJkMDlkNmM4Y2ZmODdmNDUxMDA1YzNhYzBhNDQwMCIsInNlcW5vIjoxMDE3ODQ2fSwicHJldiI6IjEyMmI0MjRiNGU2ZjcxYjIwYjc3MDk1ZDZkNzZmYTQwNmNmNmVhODI5MjBjNzdhNDI2Yjk3M2Y3YjYzOTJlZWUiLCJzZXFubyI6MTYsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAWeL+VbntsZyhgf0qi67BFE4kmXds4l1mX0A/JWinAXCOcejs0J2x7/86AlFpJU4BcuYzaxn8/GEBs1LXHOs/CqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIEbQOwHiloyikLdfe47G4Erj15TXJbAQLzU0wvdJAlDuo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/pyratebeard
+
+==================================================================
