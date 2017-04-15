@@ -163,7 +163,7 @@ Certain things that I miss from Google are being able to save email attachments 
 
 The most interesting part for me was finding all the alternatives. There are so many great developers and companies doing incredible work which is being overshadowed by the Google giant. Every day more and more people are being interested in their online security, and so these alternative applications are slowly being more widely used.
 
-If anybody would like to discuss my No Google life experiment, or anything about online privacy and security then get in touch on [twitter](https://twitter.com/pyratebeard){:target="_blank"} or email me: root@pyratebeard.net. Be sure to encrypt and sign your email for bonus geek points :) 
+If anybody would like to discuss my No Google life experiment, or anything about online privacy and security then get in touch on [twitter](https://twitter.com/pyratebeard){:target="_blank"} or email me: root [at] pyratebeard [dot] net. Be sure to encrypt and sign your email for bonus geek points :) 
 
 Until next time...
 
