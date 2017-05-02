@@ -13,3 +13,8 @@
          ░ ░                                                                 
 
 ```
+
+##### Todo
+* Create tag pages
+* Create category pages
+* Build code page using github api
