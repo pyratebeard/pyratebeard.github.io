@@ -101,13 +101,57 @@ Log back in as your new user and remove the default user `pi`
 sudo userdel -r pi
 ````
 
-Change the default ssh port and ensure root ssh login is disabled
+Change the hostname
+```
+sudo hostnamectl set-hostname phishpi
+```
+
+Open up the hosts file and change the last line from
+```
+127.0.1.1   raspberrypi
+```
+to whatever you changed your hostname to
+```
+127.0.1.1   phishpi
+```
+
+Open up the ssh config file
 ```
 sudo vi /etc/ssh/sshd_config
-
-Port 22
-Port 2222
-
-PermitRootLogin without-password
-PermitRootLogin no
 ```
+
+We're going to change the following lines (they aren't listed together)
+```
+Port 22
+PermitRootLogin without-password
+X11Forwarding yes
+```
+to
+```
+Port 2222
+PermitRootLogin no
+X11Forwarding no
+```
+*you can change the port to whichever one you prefer.
+
+Now restart the ssh daemon
+```
+sudo systemctl restart ssh
+```
+
+Keep in mind that when you want to ssh in to the Pi from now on you will need to specify the port, for example
+```
+ssh -p 2222 pyratebeard@phishpi
+```
+
+Next we want to install SELinux. As we don't know how far behind the latest packages our current distro is we can perform an upgrade first
+```
+sudo apt-get update && sudo apt-get upgrade
+```
+
+When that is complete we can go ahead and install SELinux
+```
+sudo apt-get install selinux-basics selinux-policy-default
+```
+
+
