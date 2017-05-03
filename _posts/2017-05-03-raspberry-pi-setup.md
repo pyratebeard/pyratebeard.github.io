@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2017-04-22
+date: 2017-05-03
 category: Tech
 tags: raspberrypi
 description: Setting up an OS on a Raspberry Pi
