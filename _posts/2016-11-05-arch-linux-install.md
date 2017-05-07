@@ -13,13 +13,13 @@ Even in the few short years I had used Linux I knew for certain this was for me 
 
 Arch is not recommended for absolute beginners, but if you want to improve your understanding of how the OS works it is a good distro to play around with. Things may (will) break, but that is all part of the fun!
 
-This guide details the steps I take to quickly run up an Arch install. Security is always something I consider and therefore I encrypt my root filesystem. A lot of the steps detailed below are taken straight out of the [official install guide](https://wiki.archlinux.org/index.php/Installation_guide). These steps are not intended to replace the information on the Arch wiki, this is merly my adoption of the process.
+This guide details the steps I take to quickly run up an Arch install. Security is always something I consider and therefore I encrypt my root filesystem. A lot of the steps detailed below are taken straight out of the [official install guide](https://wiki.archlinux.org/index.php/Installation_guide){:target="_blank" rel="noopener noreferrer"}. These steps are not intended to replace the information on the Arch wiki, this is merly my adoption of the process.
 
 Pre-reqs:
 <ul class="sidebar">
 <li>- You should be comfortable with using the Linux command line as there is no GUI for this installation</li>
 <li>- I use vi for editing the files in this guide. Feel free to use nano if you prefer</li>
-<li>- Grab the latest [Arch ISO](https://www.archlinux.org/downloads)</li>
+<li>- Grab the latest [Arch ISO](https://www.archlinux.org/downloads){:target="_blank" rel="noopener noreferrer"}</li>
 <li>- Internet connection</li>
 </ul>
 
@@ -57,7 +57,7 @@ As mentioned security is pretty important. Before we continue we will write lots
 ```
 dd if=/dev/urandom of=/dev/sda bs=1M
 ```
-Once that is completed we need to create the partition table. We are only going to create two partitons, one for the boot partition and one for the rest of the disk. Later on we will use LVM ([Logical Volume Manager](https://en.wikipedia.org/wiki/Logical_Volume_Manager_%28Linux%29)) to break the disk down further
+Once that is completed we need to create the partition table. We are only going to create two partitons, one for the boot partition and one for the rest of the disk. Later on we will use LVM ([Logical Volume Manager](https://en.wikipedia.org/wiki/Logical_Volume_Manager_%28Linux%29){:target="_blank" rel="noopener noreferrer"}) to break the disk down further
 ```
 fdisk /dev/sda
 ```
@@ -113,7 +113,7 @@ pvs
 vgcreate vg_arch /dev/mapper/lvm
 vgs
 ```
-For my logical volumes I have sized the partitions based on various best practice rules that I have picked up over the years. This is by no meeans a strict rule, but it is advised to split up `/boot`, `/var`, and `/home`. The `/boot` directory has been placed on a seperate partition due to the encryption we're going to use. We will also create some [swap space](http://linuxjournal.com/article/10678). In this exampe I am using a 64GB disk
+For my logical volumes I have sized the partitions based on various best practice rules that I have picked up over the years. This is by no meeans a strict rule, but it is advised to split up `/boot`, `/var`, and `/home`. The `/boot` directory has been placed on a seperate partition due to the encryption we're going to use. We will also create some [swap space](http://linuxjournal.com/article/10678){:target="_blank" rel="noopener noreferrer"}. In this exampe I am using a 64GB disk
 - /boot = 512MB
 - /var = 10GB
 - swap = 8GB
@@ -142,7 +142,7 @@ mount /dev/mapper/vg_arch-lv_var /mnt/var
 mount /dev/mapper/vg_arch-lv_home /mnt/home
 df -ah
 ```
-Before we install Arch we need to configure the mirrorlist. As I am currently in the UK I will generate a relevant mirrorlist. This is where an internet connection comes in useful. We will use the Arch [mirrorlist generator](https://www.archlinux.org/mirrorlist/) and `wget` to pull it onto our system. By default the lines are all commented out so we'll use `sed` to uncomment the correct lines. Then we will switch the current mirrorlist with our new one, it is good practice to always make backup copies of configuration files before replacing or modifying them
+Before we install Arch we need to configure the mirrorlist. As I am currently in the UK I will generate a relevant mirrorlist. This is where an internet connection comes in useful. We will use the Arch [mirrorlist generator](https://www.archlinux.org/mirrorlist/){:target="_blank" rel="noopener noreferrer"} and `wget` to pull it onto our system. By default the lines are all commented out so we'll use `sed` to uncomment the correct lines. Then we will switch the current mirrorlist with our new one, it is good practice to always make backup copies of configuration files before replacing or modifying them
 ```
 wget -O mirrorlist "https://www.archlinux.org/mirrorlist/?country=GB&protocol=http&protocol=https&ip_version=4&use_mirror_status=on"
 cat mirrorlist
@@ -159,7 +159,7 @@ Generate fstab, setting the `-U` option to use UUIDs. The `-p` excludes pseudofs
 genfstab -p -U /mnt > /mnt/etc/fstab
 cat /mnt/etc/fstab
 ```
-To configure the rest of the system we're going to use [chroot](https://en.wikipedia.org/wiki/Chroot) to change the root directory. This makes it easier to configure
+To configure the rest of the system we're going to use [chroot](https://en.wikipedia.org/wiki/Chroot){:target="_blank" rel="noopener noreferrer"} to change the root directory. This makes it easier to configure
 ```
 arch-chroot /mnt
 ```
@@ -197,7 +197,7 @@ Ensure dhcpcd is enabled on boot
 ```
 systemctl enable dhcpcd
 ```
-Next we need to install and configure the [GRUB](https://en.wikipedia.org/wiki/GNU_GRUB) bootloader
+Next we need to install and configure the [GRUB](https://en.wikipedia.org/wiki/GNU_GRUB){:target="_blank" rel="noopener noreferrer"} bootloader
 ```
 pacman -S grub
 y
