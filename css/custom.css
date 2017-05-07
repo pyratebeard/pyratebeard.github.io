@@ -63,6 +63,8 @@ hr {
 }
 .content > p > a {
     color: #66ccdd;
+    target: "_blank";
+    rel: "noopener noreferrer";
 }
 .content > p > a:hover,
 a:active,
