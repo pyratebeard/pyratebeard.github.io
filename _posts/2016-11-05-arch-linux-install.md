@@ -38,7 +38,7 @@ loadkeys uk
 ```
 The next step is to ensure you have a working internet connection. While this step is also optional I will be using an internet connection later on
 ```
-systemctl start dhcpd
+systemctl start dhcpcd
 ip a
 ping -c 3 archlinux.org
 ```
@@ -152,7 +152,7 @@ mv mirrorlist /etc/pacman.d/mirrorlist
 ```
 Now we can install the base Arch packages
 ```
-pacstrap /mnt base
+pacstrap /mnt base base-devel
 ```
 Generate fstab, setting the `-U` option to use UUIDs. The `-p` excludes pseudofs mounts
 ```
