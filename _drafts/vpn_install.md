@@ -6,7 +6,6 @@ tags: openvpn raspberrypi
 description: Configuring a Raspberry Pi as a VPN server
 ---
 
-##### Fruity
 As mentioned in my previous [post](log/2017/05/raspberry-pi-setup){:target="_blank" rel="noopener noreferrer"}, I want to use my Raspberry Pi as a VPN server. If you followed along with the install guide you should have a basic Raspbian OS running on your Pi. You may have installed other software, or configured the Pi however you prefer. If you have made any changes it _may_ alter the following VPN setup.
 
 For this guide I will be continuing on with the basic install as it was after the previous post.
@@ -200,9 +199,22 @@ group nogroup
 ;cert client.crt
 ;key client.key
 ```
+
+Also change the line specifying the IP address of your OpenVPN server.
+From
+```
+remote my-server-1 1194
+```
+To
+```
+remote 192.168.0.123 1194
+```
+
+Replace the IP address with your Pi's, which you can find with the `ip a` command.
+
 Save and quit your text editor.
 
-Instead of copying the .ovpn file the two certs and the key across to our client, we can echo the contents into our .ovpn file and only copy the one file across to our client.
+Instead of copying the .ovpn file the two certs and the key across to our client, we can echo the contents of our certs into our .ovpn file and only copy the one file across to our client.
 
 The syntax for this is in XML, for example
 ```
@@ -228,3 +240,10 @@ exit
 ```
 
 Securely copy the "client.ovpn" file across to your device. 
+
+For the purposes of this demonstration we are going to use a mobile phone as our device.
+
+Install and open the OpenVPN Connect app on your mobile. Import the profile file we copied across and hit connect. After a couple of seconds you should be connected to your VPN. Congrats!
+
+As mentioned at the start you will have to enable port forwarding on your router to allow traffic from outside your network into the Pi.
+
