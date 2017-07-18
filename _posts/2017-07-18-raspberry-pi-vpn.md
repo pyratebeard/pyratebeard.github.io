@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2017-05-13
+date: 2017-07-18
 category: Notes
 tags: openvpn raspberrypi
 description: Configuring a Raspberry Pi as a VPN server
