@@ -15,8 +15,11 @@ a {
     color: #d9d9d9;
 }
 a:active,
-a:hover {
+a:hover,
+a:focus {
     text-decoration: none;
+    color: #01c8e5;
+    background: transparent;
 }
 .nav > li > a { 
     background: transparent;
@@ -93,7 +96,7 @@ a:focus {
 a:active,
 a:focus {
     color: #01c8e5;
-    background: #035098;
+    background: transparent;
 }
 code {
     color: #0b0b0b;
@@ -122,7 +125,7 @@ blockquote > p > a:hover,
 a:active,
 a:focus {
     color: #01c8e5;
-    background: #035098;
+    background: transparent;
 }
 footer {
     border-top: solid #d9d9d9 1px;
