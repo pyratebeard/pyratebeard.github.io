@@ -2,24 +2,17 @@
 <html lang="en">
 {% include head.html %}
 <body>
-<div class="col-md-13">
-  <div class="col-md-13">
-    <div class="top">
-    </div>
-  </div>
-  <div class="col-md-2">
+<div class="col-md-6 col-md-offset-3">
+  <div>
     <nav class="navbar" role="navigation">
     <div class="panel panel-default">
-      <div class="panel-heading">
-          MENU
+      <div class="panel-body">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-      </div>
-      <div class="panel-body">
         <div class="collapse navbar-collapse">
         {% include menu.html %}
         </div>
@@ -27,11 +20,8 @@
     </div>
     </nav>
   </div>
-  <div class="col-md-7">
+  <div>
     <div class="panel panel-default">
-      <div class="panel-heading content">
-        CONTENT
-      </div>
       <div class="panel-body" style="min-height: 500px;">
         <div class="content">
         {{ content }}
@@ -39,29 +29,8 @@
       </div>
     </div>
   </div>
-  <div class="col-md-3">
+  <div>
     <div class="panel panel-default">
-      <div class="panel-heading">
-        SIDEBAR
-      </div>
-      <div class="panel-body">
-      {% if page.title == 'log' %}
-        {% include log_sidebar.html %}
-      {% elsif page.title == 'archive' %}
-        {% include log_sidebar.html %}
-      {% elsif page.layout == 'post' %}
-        {% include log_sidebar.html %}
-      {% else %}
-        {{ page.sections['sidebar'] }}
-      {% endif %}
-      </div>
-    </div>
-  </div>
-  <div class="col-md-7 col-md-offset-2">
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        FOOTER
-      </div>
       <div class="panel-body">
       {% include footer.html %}
       </div>
