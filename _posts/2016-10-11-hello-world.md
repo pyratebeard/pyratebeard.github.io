@@ -17,5 +17,3 @@ If you're lucky enough I may write some posts about comics and other non tech re
 I hope you enjoy some, if not all of the writings I will post. Feel free to send me critique on [twitter](https://twitter.com/pyratebeard){:target="_blank" rel="noopener noreferrer"}.
 
 Until next time...
-
-![alt text]({{ site.baseurl}}/img/text_logo.png){:style="max-width: 270px;"}
