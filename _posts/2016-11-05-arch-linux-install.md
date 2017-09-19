@@ -19,7 +19,7 @@ Pre-reqs:
 <ul class="sidebar">
 <li>- You should be comfortable with using the Linux command line as there is no GUI for this installation</li>
 <li>- I use vi for editing the files in this guide. Feel free to use nano if you prefer</li>
-<li>- Grab the latest <a href="https://www.archlinux.org/downloads" target="_blank" rel="noopener noreferrer">Arch ISO</a></li>
+<li>- Grab the latest <a href="https://www.archlinux.org/download/" target="_blank" rel="noopener noreferrer">Arch ISO</a></li>
 <li>- Internet connection</li>
 </ul>
 
