@@ -6,7 +6,7 @@ tags: tech arch linux install guide
 description: Setup a working environment on an Arch Linux installation
 ---
 
-_Note_ This guide assumes you have a working Arch Linux installation. See my [previous post](/log/2016/11/arch_linux_install){:target="_blank" rel="noopener noreferrer"} for how to get started.
+_Note_ This guide assumes you have a working Arch Linux installation. See my [previous post](/log/2016/11/arch-linux-install){:target="_blank" rel="noopener noreferrer"} for how to get started.
 
 If you followed my Arch Linux install guide you should have rebooted your system and have a login prompt. If you enter the username and password you set you will log in to the system, but it's looking a bit plain. Now some people do work in the [TTY]() ([nixers](https://nixers.net/showthread.php?tid=1669){:target="_blank" rel="noopener noreferrer"} has an annual "Week in the TTY") but most of us prefer a graphical environment... even a minimal one.
 
