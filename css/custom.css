@@ -66,6 +66,21 @@ hr {
     margin-bottom: 1px;
     border-top: solid 1px #d9d9d9;
 }
+.rootcontent {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.rootcontent > p > a {
+    color: #01c8e5;
+}
+.rootcontent > p > a:hover,
+a:active,
+a:focus {
+    color: #01c8e5;
+}
 .content > p > a {
     color: #01c8e5;
 }
