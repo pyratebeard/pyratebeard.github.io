@@ -73,8 +73,9 @@ hr {
     transform: translate(-50%,-50%);
     text-align: center;
 }
-.rootcontent > p > a {
-    color: #01c8e5;
+.rootcontent > p.menu > a {
+    background-color: #252525;
+    padding: 5px;
 }
 .rootcontent > p > a:hover,
 a:active,
