@@ -103,6 +103,11 @@ blockquote:hover {
 blockquote:hover > p {
     color: #fff !important;
 }
+.nav > li > a:hover,
+a:active,
+a:focus {
+    background-color: transparent;
+}
 footer {
     border-top: solid #fff 1px;
     padding-top: 10px;
