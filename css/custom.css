@@ -21,6 +21,9 @@ a:focus {
     color: #01c8e5;
     background: transparent;
 }
+#quote {
+    color: #656565;
+}
 .panel {
     background-color: transparent;
 }

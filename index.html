@@ -4,8 +4,33 @@ layout: root
 ---
 
 <h2>pyratebeard</h2>
+<div id='quote'></div>
+<br>
 <br>
 <p class='menu'><a href='/bio'>bio</a> :: <a href='/log'>log</a> :: <a href='/src'>src</a></p>
 <br>
 <p>root [at] pyratebeard [dot] net</p>
 <p><a href='/pgp_keys.asc' target='_blank' rel='noopener noerferrer'>C787 7C71 5113 A16D</a></p>
+
+<script type='text/javascript'>
+  var quoteList = [
+    "got rum?",
+    "powered by coffee",
+    "*nix engineer",
+    "nyctophile: a preference for night or darkness",
+    "my other computer is your computer",
+    "the cake is a lie",
+    "age of the geek",
+    "there's always money in the banana stand",
+    "greetings, progams!",
+    "i know kung fu",
+  ];
+
+  var quoteDiv = document.getElementById('quote');
+
+  window.onload = function() {
+    randomNum = Math.ceil((Math.random() * quoteList.length-1));
+    newQuote = quoteList[randomNum];
+    quoteDiv.innerHTML = newQuote;
+  }
+</script>
