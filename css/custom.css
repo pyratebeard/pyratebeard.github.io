@@ -8,11 +8,11 @@
 body {
     font-family: "envy";
     letter-spacing: .3px;
-    background-color: #0e0e0e;
-    color: #fff;
+    background-color: #0b0b0b;
+    color: #d9d9d9;
 }
 a {
-    color: #fff;
+    color: #d9d9d9;
 }
 a:active,
 a:hover,
@@ -40,7 +40,7 @@ a:focus {
 hr {
     margin-top: 3px;
     margin-bottom: 1px;
-    border-top: solid 1px #fff;
+    border-top: solid 1px #d9d9d9;
 }
 .rootcontent {
     position: absolute;
@@ -59,7 +59,7 @@ a:focus {
     color: #01c8e5;
 }
 .content > a {
-    color: #fff;
+    color: #d9d9d9;
 }
 .content > p > a {
     color: #01c8e5;
@@ -76,18 +76,18 @@ ul {
     list-style: none;
 }
 code {
-    color: #0e0e0e;
+    color: #0b0b0b;
     background-color: #999;
     padding: 5px 4px 2px 4px;
     border-radius: 0px;
 }
 pre {
     max-width: 70%;
-    color: #fff;
+    color: #d9d9d9;
     background-color: #010101;
     /*font-family: envy; */
     border-radius: 0px;
-    border-color: #fff;
+    border-color: #d9d9d9;
     font-family: monospace;
 }
 blockquote {
@@ -101,7 +101,7 @@ blockquote:hover {
     border: 1px solid #01c8e5;
 }
 blockquote:hover > p {
-    color: #fff !important;
+    color: #d9d9d9 !important;
 }
 .nav > li > a:hover,
 a:active,
@@ -109,6 +109,6 @@ a:focus {
     background-color: transparent;
 }
 footer {
-    border-top: solid #fff 1px;
+    border-top: solid #d9d9d9 1px;
     padding-top: 10px;
 }
