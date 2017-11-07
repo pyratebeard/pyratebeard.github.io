@@ -21,33 +21,6 @@ a:focus {
     color: #01c8e5;
     background: transparent;
 }
-.nav > li > a { 
-    background: transparent;
-    padding: 0px;
-}
-.nav > li > a:hover {
-    background-color: transparent;
-    color: #01c8e5;
-    text-decoration: none;
-}
-.navbar {
-    margin-bottom: 0px;
-}
-.navbar-toggle {
-    margin-right: 0px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    padding: 0px;
-    float: left;
-}
-.navbar-collapse.collapse {
-    border-bottom: solid #fff 1px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-.icon-bar {
-    background-color: #fff;
-}
 .panel {
     background-color: transparent;
 }
@@ -82,6 +55,9 @@ a:active,
 a:focus {
     color: #01c8e5;
 }
+.content > a {
+    color: #fff;
+}
 .content > p > a {
     color: #01c8e5;
 }
@@ -90,29 +66,11 @@ a:active,
 a:focus {
     color: #01c8e5;
 }
+.content > ul > li > a {
+    color: #01c8e5;
+}
 ul {
     list-style: none;
-}
-.sidebar > li > a {
-    color: #01c8e5;
-}
-.sidebar > li > a:hover,
-a:active,
-a:focus {
-    color: #01c8e5;
-    background: #01c8e5;
-}
-.guide {
-    max-width: 100%;
-}
-.guide > p > a {
-    color: #01c8e5;
-}
-.guide > p > a:hover,
-a:active,
-a:focus {
-    color: #01c8e5;
-    background: transparent;
 }
 code {
     color: #0e0e0e;
@@ -131,19 +89,16 @@ pre {
 }
 blockquote {
     font-size: 1em;
-    border: 1px solid #01c8e5;
-    background-color: #212121;
+    border: 1px solid #252525;
+    background-color: #151515;
     max-width: 90%;
     margin-left: 5%;
 }
-blockquote > p > a {
-    color: #01c8e5;
+blockquote:hover {
+    border: 1px solid #01c8e5;
 }
-blockquote > p > a:hover,
-a:active,
-a:focus {
-    color: #01c8e5;
-    background: transparent;
+blockquote:hover > p {
+    color: #fff !important;
 }
 footer {
     border-top: solid #fff 1px;
