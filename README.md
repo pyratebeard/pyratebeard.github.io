@@ -15,6 +15,6 @@
 ```
 
 ##### Todo
-* Create tag pages
-* Create category pages
-* Build code page using github api
+* ~~Create tag pages~~ No longer used
+* ~~Create category pages~~ No longer used
+* Build src page using github api
