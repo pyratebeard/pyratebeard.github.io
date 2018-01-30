@@ -10,7 +10,7 @@ As mentioned in my previous [post](log/2017/05/raspberry-pi-setup){:target="_bla
 
 For this guide I will be continuing on with the basic install as it was after the previous post.
 
-**Note** - Using a VPN from outside your home network will require port forwarding on your router. Through the router admin console you should be able to forward all traffic to your Pi's 'tun0' device, which is created later.
+**Note** - Using a VPN from outside your home network will require port forwarding on your router. Through the router admin console you should be able to forward all traffic to your Pi's 'tun0' device, which is created later. You will also need your external IP address. Use a site such as [whatismyip.com](https://whatismyip.com){:target="_blank" rel="noopener noreferrer"}.
 
 <br />
 ##### Open(VPN) your world
@@ -62,7 +62,7 @@ group nogroup
 ```
 Save and exit your text editor.
 
-Now we need to set up the firewall. Firewall configuration on Linux is a sore subject for a lot of people, especially when trying to use the `iptables` commands. To make life easier you can opt to use a tool such as `ufw` which makes configurating the rules really easy. My guide will use the `iptables` commands because the only way to learn is by doing!
+Now we need to set up the firewall. Firewall configuration on Linux is a sore subject for a lot of people, especially when trying to use the `iptables` commands. To make life easier you can opt to use a tool such as `ufw` which makes configuring the rules really easy. My guide will use the `iptables` commands because the only way to learn is by doing!
 
 Forward IPv4 traffic
 ```
@@ -166,14 +166,13 @@ Copy the newly generated keys to your OpenVPN directory
 sudo cp /etc/openvpn/easy-rsa/keys/{server.crt,server.key,ca.crt} /etc/openvpn
 ```
 
-Open up the OpenVPN ("/etc/openvpn/server.conf") config file again and 
 Now we can start our OpenVPN server
 ```
 sudo systemctl start openvpn
 sudo systemctl status openvpn
 ```
 
-We now have to generate keys for the clients we want on our VPN. It is good practice to have individual key pairs for each client, and not to share one key pair. This makes life easier if a device is lost or stolen, we only have to revoke one device's key pair.
+We then have to generate keys for the clients we want on our VPN. It is good practice to have individual key pairs for each client, and not to share one key pair. This makes life easier if a device is lost or stolen, we only have to revoke one device's key pair.
 
 Generate the keys for the first client, changing the name to the device you will be using (run as root again)
 ```
@@ -207,10 +206,10 @@ remote my-server-1 1194
 ```
 To
 ```
-remote 192.168.0.123 1194
+remote 192.30.252.153 1194
 ```
 
-Replace the IP address with your Pi's, which you can find with the `ip a` command.
+Replace the IP address with your network's _external_ IP address.
 
 Save and quit your text editor.
 
