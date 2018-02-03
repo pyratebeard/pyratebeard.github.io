@@ -169,7 +169,7 @@ You will notice that the prompt has now changed
 ```
 Set a symbolic link to the timezone file for your city, in this case London
 ```
-ln -s /usr/share/zoneinfo/Europe/London /etc/localtime
+ln -sf /usr/share/zoneinfo/Europe/London /etc/localtime
 ```
 Set up the locale settings, in this case we are using en_GB
 ```
