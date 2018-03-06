@@ -18,7 +18,7 @@ a:active,
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #01c8e5;
+    color: #277896;
     background: transparent;
 }
 #quote {
@@ -67,7 +67,7 @@ a:focus {
 .content > p > a:hover,
 a:active,
 a:focus {
-    color: #01c8e5;
+    color: #277896;
 }
 .content > ul > li > a {
     color: #01c8e5;
