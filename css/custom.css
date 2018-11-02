@@ -27,7 +27,7 @@ body {
     color: #abc0c5;
 }
 a {
-    color: #c2c2c2;
+    color: #abc0c5;
 }
 a:active,
 a:hover,
@@ -74,7 +74,7 @@ a:focus {
     color: #a29076;
 }
 .content > a {
-    color: #c2c2c2;
+    color: #abc0c5;
 }
 .content > p > a {
     color: #776e89;
@@ -123,7 +123,7 @@ blockquote:hover {
     border-left: 2px solid #a29076;
 }
 blockquote:hover > p {
-    color: #c2c2c2 !important;
+    color: #abc0c5 !important;
 }
 .nav > li > a:hover,
 a:active,
@@ -131,6 +131,6 @@ a:focus {
     background-color: transparent;
 }
 footer {
-    border-top: solid #c2c2c2 1px;
+    border-top: solid #abc0c5 1px;
     padding-top: 10px;
 }
