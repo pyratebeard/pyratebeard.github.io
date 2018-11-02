@@ -1,15 +1,30 @@
 @font-face {
     font-family: "envy";
-    src: url('fonts/envy_code_r.eot');
-    src: local('monospace'), url('../fonts/envy_code_r.woff2') format('woff2'), url('../fonts/envy_code_r.woff') format('woff'), url('../fonts/envy_code_r.ttf') format('truetype'), url('../fonts/envy_code_r.svg') format('svg');
+    src: url('../fonts/envy_code_r.eot');
+    src: url('../fonts/envy_code_r.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/envy_code_r.woff2') format('woff2'),
+         url('../fonts/envy_code_r.woff') format('woff'),
+         url('../fonts/envy_code_r.ttf') format('truetype'),
+         url('../fonts/envy_code_r.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'goudy_bookletter_1911regular';
+    src: url('../fonts/goudy_bookletter_1911-webfont.eot');
+    src: url('../fonts/goudy_bookletter_1911-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/goudy_bookletter_1911-webfont.woff') format('woff'),
+         url('../fonts/goudy_bookletter_1911-webfont.ttf') format('truetype'),
+         url('../fonts/goudy_bookletter_1911-webfont.svg#goudy_bookletter_1911regular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 body {
-    font-family: "envy";
+    font-family: "goudy_bookletter_1911regular";
+    font-size: 16px;
     letter-spacing: .3px;
-    background-color: #131313;
-    color: #c2c2c2;
+    background-color: #111111;
+    color: #abc0c5;
 }
 a {
     color: #c2c2c2;
@@ -18,11 +33,11 @@ a:active,
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #277896;
+    color: #a29076;
     background: transparent;
 }
 #quote {
-    color: #656565;
+    color: #5a7588;
 }
 .panel {
     background-color: transparent;
@@ -40,7 +55,7 @@ a:focus {
 hr {
     margin-top: 3px;
     margin-bottom: 1px;
-    border-top: solid 1px #c2c2c2;
+    border-top: solid 1px #5a7588;
 }
 .rootcontent {
     position: absolute;
@@ -50,56 +65,62 @@ hr {
     text-align: center;
 }
 .rootcontent > p.menu > a {
-    background-color: #252525;
+    background-color: #222222;
     padding: 5px;
 }
 .rootcontent > p > a:hover,
 a:active,
 a:focus {
-    color: #01c8e5;
+    color: #a29076;
 }
 .content > a {
     color: #c2c2c2;
 }
 .content > p > a {
-    color: #01c8e5;
+    color: #776e89;
 }
 .content > p > a:hover,
 a:active,
 a:focus {
-    color: #277896;
+    color: #a29076;
 }
 .content > ul > li > a {
-    color: #01c8e5;
+    color: #776e89;
+}
+.content > ul > li > a:hover {
+    color: #a29076;
 }
 ul {
     list-style: none;
 }
 code {
-    color: #a92e36;
-    background-color: #131313;
+    color: #5c8676;
+    background-color: #222222;
     padding: 5px 4px 2px 4px;
     border-radius: 0px;
+    font-family: envy;
+    font-size: 12px;
 }
 pre {
-    max-width: 70%;
-    color: #c2c2c2;
-    background-color: #0b0b0b;
-    /*font-family: envy; */
+    /*max-width: 70%;*/
+    color: #4f8396;
+    background-color: #111111;
+    font-family: envy;
     border-radius: 0px;
-    border-color: #656565;
-    border-width: 2px;
-    font-family: monospace;
+    border-color: #444444;
+    border-width: 1px;
+    border-style: none;
+    border-left-style: solid;
 }
 blockquote {
     font-size: 1em;
-    border: 2px solid #252525;
-    background-color: #181818;
+    border-left: 2px solid #776e89;
+    background-color: #111111;
     max-width: 90%;
     margin-left: 5%;
 }
 blockquote:hover {
-    border: 2px solid #01c8e5;
+    border-left: 2px solid #a29076;
 }
 blockquote:hover > p {
     color: #c2c2c2 !important;
