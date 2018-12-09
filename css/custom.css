@@ -17,14 +17,14 @@ body {
     color: #c1c1c1;
 }
 a {
-    color: #5a7588;
+    color: #277896;
     text-decoration: none;
 }
 a:active,
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #776e89;
+    color: #01c8e5;
     background: transparent;
 }
 #quote {
@@ -41,22 +41,23 @@ a:focus {
 }
 .panellist > li > a {
     text-decoration: none;
-    color: #5a7588;
+    color: #277896;
 }
 hr {
     margin-top: 3px;
     margin-bottom: 1px;
-    border-top: solid 1px #222222;
+    border-top: solid 1px #444444;
 }
 .rootcontent {
     position: absolute;
-    left: 50%;
+    left: 25%;
     top: 50%;
     transform: translate(-50%,-50%);
-    text-align: center;
+    text-align: left;
 }
-.rootcontent > p > a {
+.rootcontent > pre > a {
     text-decoration: none;
+    color: #c1c1c1;
 }
 .rootcontent > p.menu > a {
     color: #c1c1c1;
@@ -64,32 +65,32 @@ hr {
     padding: 5px;
     text-decoration: none;
 }
-.rootcontent > p > a:hover,
+.rootcontent > pre > a:hover,
 a:active,
 a:focus {
-    color: #5a7588;
+    color: #4f8396;
     text-decoration: none;
 }
 .content > a {
-    color: #5a7588;
+    color: #277896;
     text-decoration: none;
 }
 .content > p > a {
-    color: #5a7588;
+    color: #277896;
     text-decoration: none;
 }
 .content > p > a:hover,
 a:active,
 a:focus {
-    color: #776e89;
+    color: #01c8e5;
     text-decoration: none;
 }
 .content > ul > li > a {
-    color: #5a7588;
+    color: #277896;
     text-decoration: none;
 }
 .content > ul > li > a:hover {
-    color: #776e89;
+    color: #01c8e5;
     text-decoration: none;
 }
 ul {
@@ -101,14 +102,15 @@ code {
     padding: 5px 4px 2px 4px;
     border-radius: 0px;
     font-family: envy;
+    font-size: 13px;
 }
 pre {
     /*max-width: 70%;*/
     color: #c1c1c1;
-    background-color: #222222;
+    background-color: #111111;
     font-family: envy;
     border-radius: 0px;
-    border-color: #222222;
+    border-color: #111111;
     border-width: 1px;
     border-style: none;
     border-left-style: solid;
@@ -125,7 +127,7 @@ blockquote:hover {
     border-left: 2px solid #222222;
 }
 blockquote:hover > p {
-    color: #776e89 !important;
+    color: #01c8e5 !important;
     text-decoration: none;
 }
 .nav > li > a {
