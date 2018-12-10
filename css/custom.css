@@ -68,6 +68,7 @@ hr {
 .rootcontent > pre {
     background-color: #111111;
     border-color: #111111;
+    font-size: 15px;
 }
 .rootcontent > pre > a {
     text-decoration: none;
@@ -123,7 +124,7 @@ pre {
     color: #abc0c5;
     background-color: #222222;
     font-family: envy;
-    font-size: 15px;
+    font-size: 13px;
     border-radius: 0px;
     border-color: #222222;
     border-width: 1px;
