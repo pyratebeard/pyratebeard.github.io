@@ -14,7 +14,7 @@ body {
     font-size: 13px;
     letter-spacing: .3px;
     background-color: #111111;
-    color: #c1c1c1;
+    color: #abc0c5;
 }
 a {
     color: #277896;
@@ -50,17 +50,17 @@ hr {
 }
 .rootcontent {
     position: absolute;
-    left: 25%;
+    left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
     text-align: left;
 }
 .rootcontent > pre > a {
     text-decoration: none;
-    color: #c1c1c1;
+    color: #abc0c5;
 }
 .rootcontent > p.menu > a {
-    color: #c1c1c1;
+    color: #abc0c5;
     background-color: #111111;
     padding: 5px;
     text-decoration: none;
@@ -97,7 +97,7 @@ ul {
     list-style: none;
 }
 code {
-    color: #c1c1c1;
+    color: #abc0c5;
     background-color: #222222;
     padding: 5px 4px 2px 4px;
     border-radius: 0px;
@@ -106,9 +106,10 @@ code {
 }
 pre {
     /*max-width: 70%;*/
-    color: #c1c1c1;
+    color: #abc0c5;
     background-color: #111111;
     font-family: envy;
+    font-size: 16px;
     border-radius: 0px;
     border-color: #111111;
     border-width: 1px;
@@ -121,7 +122,7 @@ blockquote {
     background-color: #222222;
     max-width: 90%;
     margin-left: 5%;
-    color: #c1c1c1;
+    color: #abc0c5;
 }
 blockquote:hover {
     border-left: 2px solid #222222;
@@ -131,7 +132,7 @@ blockquote:hover > p {
     text-decoration: none;
 }
 .nav > li > a {
-    color: #c1c1c1;
+    color: #abc0c5;
 }
 .nav > li > a:hover,
 a:active,
@@ -139,6 +140,6 @@ a:focus {
     background-color: transparent;
 }
 footer {
-    border-top: solid #c1c1c1 1px;
+    border-top: solid #abc0c5 1px;
     padding-top: 10px;
 }
