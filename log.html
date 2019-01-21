@@ -6,7 +6,7 @@ layout: default
 {% for post in site.posts limit:10 %}
   <a href="{{ site.baseurl }}{{ post.url }}">
   <blockquote>
-    <p>{{ post.title }}</p>
+    <h5>{{ post.title }}</h5>
     <p>Posted:&nbsp;&nbsp;{{ post.date | date: "%Y-%m-%d" }}</p>
     <p>{{ post.description }}</p>
   </blockquote>
