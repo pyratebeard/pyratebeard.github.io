@@ -14,10 +14,10 @@ body {
     font-size: 14px;
     letter-spacing: .3px;
     background-color: #151515;
-    color: #eeeeee;
+    color: #eeeeec;
 }
 a {
-    color: #35abbb;
+    color: #535b66;
     text-decoration: none;
 }
 a:active,
@@ -59,14 +59,14 @@ hr {
     background-color: #151515;
     border-color: #151515;
     font-size: 16px;
-    color: #e6e3c6;
+    color: #eeeeec;
 }
 .rootcontent > pre > a {
     text-decoration: none;
-    color: #e6e3c6;
+    color: #eeeeec;
 }
 .rootcontent > p.menu > a {
-    color: #e6e3c6;
+    color: #eeeeec;
     background-color: #151515;
     padding: 5px;
     text-decoration: none;
@@ -74,19 +74,23 @@ hr {
 .rootcontent > pre > a:hover,
 a:active,
 a:focus {
-    color: #1dc189;
+    color: #35abbb;
     text-decoration: none;
 }
-.content > h4 {
+.content > h3 {
     color: #4f5090;
     text-transform: uppercase;
 }
+.content > h4, h5 {
+    color: #1dc189;
+    text-transform: uppercase;
+}
 .content > a {
-    color: #35abbb;
+    color: #366696;
     text-decoration: none;
 }
 .content > p > a {
-    color: #35abbb;
+    color: #366696;
     text-decoration: none;
 }
 .content > p > a:hover,
@@ -96,7 +100,7 @@ a:focus {
     text-decoration: none;
 }
 .content > ul > li > a {
-    color: #35abbb;
+    color: #366696;
     text-decoration: none;
 }
 .content > ul > li > a:hover {
@@ -108,7 +112,7 @@ ul {
 }
 code {
     color: #e6e3c6;
-    background-color: #151515;
+    background-color: #2e2c2a;
     padding: 5px 4px 2px 4px;
     border-radius: 0px;
     font-family: envy;
@@ -132,7 +136,7 @@ blockquote {
     background-color: #111111;
     max-width: 90%;
     margin-left: 5%;
-    color: #eeeeee;
+    color: #eeeeec;
 }
 blockquote > h5 {
     color: #4f5090;
@@ -142,8 +146,11 @@ blockquote:hover > p {
     color: #1dc189 !important;
     text-decoration: none;
 }
+nav.navbar {
+	margin-bottom: 0px;
+}
 .nav > li > a {
-    color: #eeeeee;
+    color: #eeeeec;
 }
 .nav > li > a:hover,
 a:active,
