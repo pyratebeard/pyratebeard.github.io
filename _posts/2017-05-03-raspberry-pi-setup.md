@@ -30,7 +30,7 @@ VPNs are used extensively by corporations so their employees can access the comp
 Some of you may have read my first post about [DeGooglefying](/log/2017/04/degoogle-part-1){:target="_blank" rel="noopener noreferrer"} (yes it's a word) my life. As part of this transition I moved to using my own domain for emails, and I though the Pi would be a great little mail server.
 
 <br />
-##### # Raspbian install
+##### Raspbian install
 Before we can set up our VPN we need to put an OS on the Pi. As mentioned above I have opted for Raspbian. At the time of writing the stable release is 'Jessie', I chose the Lite version as I don't need a desktop for my uses.
 
 After downloading the zip archive extract the [image file](https://www.raspberrypi.org/downloads/raspbian/){:target="_blank" rel="noopener noreferrer"}. If you're using Windows you will need to use an application such as [Etcher](https://etcher.io/){:target="_blank" rel="noopener noreferrer"} to write the image file to an SD card, which will be used in the Pi. For this guide I'm using Linux, so I can use the `dd` utility.
