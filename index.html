@@ -1,26 +1,20 @@
 ---
-title: index
-layout: root
+title: log
+layout: default
 ---
 
-<pre>
-<a href='/log'>*nix_engineer</a>
-root [at] pyratebeard [dot] net
-<a href='/pgp.pub' target='_blank' rel='noopener noerferrer'>0xC7877C715113A16D</a>
-</pre>
+{% for post in site.posts limit:10 %}
+  <a href="{{ site.baseurl }}{{ post.url }}">
+  <blockquote>
+    <h5>{{ post.title }}</h5>
+    <p>Posted:&nbsp;&nbsp;{{ post.date | date: "%Y-%m-%d" }}</p>
+    <p>{{ post.description }}</p>
+  </blockquote>
+  </a>
+{% endfor %}
 
-<script type='text/javascript'>
-  var quoteList = [
-    "got rum?",
-    "powered by coffee",
-    "*nix engineer",
-  ];
-
-  var quoteDiv = document.getElementById('quote');
-
-  window.onload = function() {
-    randomNum = Math.ceil((Math.random() * quoteList.length-1));
-    newQuote = quoteList[randomNum];
-    quoteDiv.innerHTML = newQuote;
-  }
-</script>
+<div class="post-footer">
+  <div class="column-full">
+    <p><a href="{{ '/archive.html' | prepend: site.baseurl | prepend: site.url }}">Log archive</a></p>
+  </div>
+</div>

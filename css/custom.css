@@ -1,4 +1,10 @@
 @font-face {
+    font-family: 'saxmono';
+    src: url('../fonts/saxmono-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
     font-family: "envy";
     src: url('../fonts/envy_code_r.eot');
     src: url('../fonts/envy_code_r.eot?#iefix') format('embedded-opentype'),
@@ -10,9 +16,8 @@
     font-style: normal;
 }
 body {
-    font-family: "envy";
-    font-size: 14px;
-    letter-spacing: .3px;
+    font-family: "saxmono";
+    font-size: 16px;
     background-color: #202224;
     color: #beced0;
 }
@@ -114,7 +119,7 @@ ul {
 code {
     color: #beced0;
     background-color: #3d4047;
-    padding: 5px 4px 2px 4px;
+    padding: 0px 3px 0px 3px;
     border-radius: 5px;
     font-family: envy;
     font-size: 13px;
