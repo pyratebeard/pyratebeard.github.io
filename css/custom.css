@@ -144,7 +144,7 @@ blockquote {
     margin-left: 5%;
     color: #beced0;
 }
-blockquote > h5 {
+blockquote > h4 {
     color: #beced0;
     text-transform: uppercase;
 }
